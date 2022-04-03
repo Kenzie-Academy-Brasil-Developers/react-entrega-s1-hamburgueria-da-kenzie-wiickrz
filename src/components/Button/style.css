@@ -1,0 +1,51 @@
+.buttonDefault {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: none;
+}
+
+.buttonDefault:hover {
+  cursor: pointer;
+}
+
+.green__button {
+  background-color: var(--btngreenbackground);
+  color: var(--btngreenfontcolor);
+  padding: 0 20px;
+  height: 40px;
+}
+
+.green__button:hover {
+  background-color: var(--btngreenhover);
+}
+
+.gray__button {
+  background-color: var(--btngraybackground);
+  color: var(--btngrayfontcolor);
+  font-size: 16px;
+  height: 60px;
+}
+
+.gray__button:hover {
+  background-color: var(--btngrayfontcolor);
+  border: 2px solid var(--btngrayfontcolor);
+  color: var(--btngraybackground);
+}
+
+.remove__button {
+  background-color: var(--backgroundproducts);
+  color: var(--btnremovefontcolor);
+  font-size: 12px;
+}
+
+.remove__button:hover {
+  text-decoration-line: underline;
+  color: var(--grayoutline);
+}
+
+.fullWidth {
+  width: 95%;
+}

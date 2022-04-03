@@ -1,0 +1,39 @@
+.searchBar {
+  width: 380px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background: var(--btngreenfontcolor);
+  border: 2px solid var(--btngraybackground);
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.searchBar button {
+  margin-right: 10px;
+}
+
+input {
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 70%;
+  color: var(--btngrayfontcolor);
+}
+
+::placeholder {
+  color: var(--btngraybackground);
+}
+
+.searchBar:hover {
+  border: 2px solid var(--grayoutline);
+}
+
+@media only screen and (min-width: 600px) {
+  .searchBar {
+    width: 365px;
+  }
+}
